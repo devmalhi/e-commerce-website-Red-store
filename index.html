@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Store Shopping </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> <!-- Bootstrap Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-------top Navbar--------->
+    <div class="top-navbar">
+        <p>WELCOME TO OUR SHOP</p>
+        <div class="icon">
+            <a href="login.html"><img src="./images/register.png" alt="" width="18px">Login</a>
+            <a href="register.html"><img src="./images/register.png" alt="" width="18px">Register</a>
+        </div>
+    </div>
+
+
+    <!--------Bootstrap Navbar-------->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo">Red <span id="span1">STORE <span>SHOPPING</span></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="./images/menu.png" alt="" width="30px"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" style="background-color: rgb(67, 0, 86);">
+                  <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Mobile Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Cameras</a></li>
+                  <li><a class="dropdown-item" href="#">Fridge</a></li>
+                  <li><a class="dropdown-item" href="#">AC</a></li>
+                  <li><a class="dropdown-item" href="#">Smart Watch</a></li>
+                  <li><a class="dropdown-item" href="#">Headphone</a></li>
+                  <li><a class="dropdown-item" href="#">Laptop</a></li>
+                  <li><a class="dropdown-item" href="#">PC Monitor</a></li>
+                  <li><a class="dropdown-item" href="#">Second Hand</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" id="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-----------content----------------->
+      <section class="home">
+        <div class="content">
+          <h1><span>Electronic Products</span>
+            <br>
+            Up To <span id="span2">50%</span>Off
+          </h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe minus, exercitationem rerum fuga sequi doloribus rem placeat. 
+          Sapiente rem quis sequi assumenda iusto placeat similique non perferendis tenetur hic!Exercitationem?
+        </p>
+        <div class="btn"><button>Show Now</button></div>
+        </div>
+        <div class="img">
+          <img src="./images/background.png" alt="">
+        </div>
+      </section>
+
+      <!----------Product card------------->
+      <div class="container" id="product-cards" >
+        <h1 class="text-center">Products</h1>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/a1.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center">AirPods</h3>
+                <p class="text-center">Lorem ipsum dolar sit awit</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2>$100 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/laptop2.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Laptop</h3>
+              <p class="text-center">Lorem ipsum dolar sit awit</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2>$2000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/t1.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Ipad</h3>
+              <p class="text-center">Lorem ipsum dolar sit awit</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2>$3000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/p6.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Iphone 13 Pro</h3>
+              <p class="text-center">Lorem ipsum dolar sit awit</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2>1000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------Product Second--------->
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/w1.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Smart Watch</h3>
+              <p class="text-center">Lorem ipsum dolar sit awit</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2>$50 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/pcm1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Pc Monitor</h3>
+            <p class="text-center">Lorem ipsum dolar sit awit</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h2>$600 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/phone1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Iphone x</h3>
+            <p class="text-center">Lorem ipsum dolar sit awit</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h2>$500 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/h1.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Head Phone</h3>
+            <p class="text-center">Lorem ipsum dolar sit awit</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h2>$60 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      <!-------footer------->
+      <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5>About Us</h5>
+                    <p class="mb-0">
+                        We provide the best services to help you reach your goals. Our commitment to quality ensures that you get the best experience possible.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-white me-2">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="text-white me-2">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#" class="text-white me-2">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p class="mb-0">
+                        &copy; 2024 Red Store Shopping Center. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body>
+    <script src="script.js"></script>
+</body>
+</html>
